@@ -1,0 +1,549 @@
+    1  cd
+    2  ls do
+    3  ls Do
+    4  ls
+    5  cd Downloads
+    6  cd ..
+    7  ls /Documents
+    8  ls \Documents
+    9  clear
+   10  ls D*
+   11  mkdir ShellExample
+   12  ls
+   13  cd ShellExample/
+   14  ls -a
+   15  ls ..
+   16  ls../Downloads
+   17  mv ../Downloads/thehackerwithin-PyTrieste-4f54727.zip .
+   18  ks
+   19  ls
+   20  unzip thehackerwithin-PyTrieste-4f54727.zip 
+   21  cd thehackerwithin-PyTrieste-4f54727/
+   22  ls
+   23  cd shellExample/
+   24  pwd
+   25  ls
+   26  cat ex_data.txt 
+   27  cat generate_data.py 
+   28  cd data/
+   29  pwd
+   30  ls
+   31  ls /alexander
+   32  ls alexander/
+   33  cat alexander/
+   34  file alexander/
+   35  file alexander/data
+   36  file alexander/
+   37  file alexander/data_216.DATA 
+   38  history
+   39  clear
+   40  ls
+   41  cd ..
+   42  ls ls 
+   43  ls
+   44  more generate_data.py 
+   45  clear
+   46  cat data*
+   47  cat Data*
+   48  ks
+   49  ls
+   50  cd data/
+   51  ls
+   52  cd alexander/
+   53  cat data_* >alldata.txt
+   54  wc *
+   55  cd  ..
+   56  cd alexander/
+   57  ls | wc
+   58  ls -2 data_216.DATA
+   59  head -2 data_216.DATA
+   60  head data_216.DATA | tail -1
+   61  head -3  data_216.DATA | tail -1
+   62  sort
+   63  cd ..
+   64  ls
+   65  cd ..
+   66  clear
+   67  gedit biggest.sh &
+   68  ls -l 
+   69  chmod a+x biggest.sh 
+   70  ./biggest
+   71  ./biggest.sh 
+   72  cp biggest.sh  data/alexander/
+   73  cd data/alexander/
+   74  ./biggest.sh 
+   75  gedit biggest.sh 
+   76  cd ..
+   77  cp biggest.sh  data/alexander/
+   78  cd data/alexander/
+   79  ./biggest.sh 
+   80  gedit biggest.sh
+   81  ./biggest.sh 
+   82  clear
+   83  cat data_216.DATA |grep Range
+   84  ls
+   85  cat * 
+   86  cat * |range
+   87  cat * | range
+   88  gedit biggest.sh
+   89  ./biggest.sh 
+   90  man grep
+   91  hello="world"
+   92  echo "hello"
+   93  echo hello
+   94  echo $hello
+   95  echo $path
+   96  clear
+   97  pwd
+   98  ls
+   99  cd .. 
+  100  ls
+  101  ls Downloads/
+  102  ls -l
+  103  cd Downlaods
+  104  cd Downloads
+  105  ls
+  106  man ls
+  107   for dir in data/alexander data/Bert ; do echo $dir ; done
+  108   for dir in data/alexander data/Bert ; do echo biggest.sh ; done
+  109   for dir in data/alexander data/Bert ; do ./biggest.sh $dir ; done
+  110  find . -type f  exec echo {}\;
+  111  find . -type f  exec echo {}\; | less
+  112  find . -type d  exec ./biggest.sh '{}' \;
+  113  man
+  114  man git
+  115  git --help
+  116  cd ..
+  117  mkdir good_science
+  118  cd good_science/
+  119  git init
+  120  ls
+  121  ls -A
+  122  cd .git
+  123  ls
+  124  cat description 
+  125  gedit  description 
+  126  gedit  description &
+  127  cd ..
+  128  gedit readme.txt &
+  129  ls
+  130  git status
+  131  git add readme.txt
+  132  ls
+  133  git status
+  134  git --help commit 
+  135  git comit -m "this is the first comment "
+  136  git commit -m "this is the first comment "
+  137  gedit ~/.git./config
+  138  git config --global user.name "ffk" 
+  139  git log
+  140  git 
+  141  clear
+  142  git status 
+  143  git diff --cached 
+  144  git add readme.txt
+  145  git commit --m 
+  146  git commit -m "fixed a file  "
+  147  git diff
+  148  git commit readme.txt
+  149  git://github.com/thehackerwithin/PyTrieste.git
+  150  git remote add upstream git://github.com/thehackerwithin/PyTrieste.git
+  151  git fetch upstream from git://github.com/thehackerwithin/PyTrieste.git
+  152  git pull upstream master
+  153  gedit readme.rst
+  154  git remote -v show 
+  155  git status
+  156  git commit readme.rst -m "we say yellow"
+  157  git pull origin master 
+  158  git push origin master 
+  159  git branch development
+  160  git checkout development
+  161  gedit readme.rst
+  162  git status
+  163  git commit -am "added something"
+  164  get fetch upstream
+  165  hit fetch upstream 
+  166  git fetch upstream 
+  167  git merge up
+  168  git fetch development
+  169  cd
+  170  dir
+  171  cd download
+  172  cd Downloads
+  173  dir
+  174  cd shellExample
+  175  cd shellEcample
+  176  ls -l
+  177  ls
+  178  cd..
+  179  dir
+  180  cd ShellExample/
+  181  ls
+  182  cd thehackerwithin-PyTrieste-4f54727/
+  183  ls
+  184  cd shellExample/
+  185  ls
+  186  cd data/
+  187  ls
+  188  cp *.* ./cleandata |rn *.* *.txt
+  189  ls
+  190  cp *.* .\cleandata |rn *.* *.txt
+  191  cp . .\cleandata |rn *.* *.txt
+  192  ls
+  193  cp Bert/  .\cleandata |rn *.* *.txt
+  194  gedit fa.com
+  195  cp fa.com  .\cleandata |rn *.* *.txt
+  196  cp fa.com  .\cleandata
+  197  ls
+  198  cp fa.com  \cleandata
+  199  ls
+  200  cd cleandata
+  201  cp fa.com  .\cleandata
+  202  ls
+  203  cd cleandata
+  204  mk cleandata
+  205  makdir cleandata
+  206   mkdir ff ; cp -fR *./ff ; rn *.* *.txt ; cd..
+  207   mkdir ff ; cp -fR * ./ff ; rn *.* *.txt ; cd..
+  208  cp Bert/  .\cleandata |rn *.* *.txt
+  209  man rn 
+  210  rename
+  211  man rename
+  212   mkdir ff ; cp -fR * ./ff ; rename *.* *.txt ; cd..
+  213  ls
+  214  cd ShellExample/
+  215  ls
+  216  cd thehackerwithin-PyTrieste-4f54727/
+  217  ls
+  218  cd ff
+  219  ls
+  220  cd ..
+  221   mkdir ff ; cp -fR * ./ff ; rename *.* *.txt ; cd..
+  222  ls ./f
+  223  ls ./ff
+  224  gedit fad.com
+  225   mkdir ff ; cp -fR * ./ff ; rename *.* *.txt ; cd..
+  226  ls ./ff
+  227  ls
+  228  cd ff
+  229  ls
+  230  cd ff
+  231  ls
+  232  cd ..
+  233  gedit fad.com
+  234  ls
+  235   mkdir ff ; cp  * ./ff ; rename *.* *.txt ; cd..
+  236  ls
+  237  cd ff
+  238  ls
+  239  cd
+  240  ks
+  241  ls
+  242  cd Do
+  243  cd D
+  244  cd Downloads/
+  245  ls
+  246  cd ..
+  247  cd ShellExample/
+  248  ls
+  249  cd thehackerwithin-PyTrieste-4f54727/
+  250  ls
+  251  cd shellExample/
+  252  ls
+  253  cd data/
+  254  ls
+  255  mkdir ff
+  256  cp -r *.* ./ff
+  257  cd ff
+  258  ls
+  259  cd ..
+  260  ls
+  261  cp -R * ./ff
+  262  cp -R * ./ff |rn *.*  *.txt
+  263  cp -R * ./ff ;cd ff ;  rn *.*  *.txt ; cd ..
+  264  cp -fR * ./ff ;cd ff ;  rn *.*  *.txt ; cd ..
+  265  python
+  266  ipython
+  267  gedit hello.py
+  268  hello.py
+  269  python hello.py
+  270  ipython
+  271  cd D
+  272  cd Downloads/
+  273  ls
+  274  cd ..
+  275  cd..
+  276  cd ..
+  277  ls 
+  278  cd .. 
+  279  cd
+  280  cd Downloads/
+  281  ls
+  282  gedit findPrimes.py &
+  283  ls
+  284  findPrimes.py
+  285  ./findPrime.py
+  286  ls
+  287  cd
+  288  ls
+  289  cd Downloads/
+  290  ls
+  291  findPrimes.py
+  292  ./findPrimes.py
+  293  chmod a+e findPrimes.py
+  294  chmod a + e findPrimes.py
+  295  chmod e+ a findPrimes.py
+  296  chmod  a+x  findPrimes.py
+  297  ./findPrimes.py
+  298  ./findPrimes.py 5
+  299  python findPrimes.py 3
+  300  print dir(math)
+  301  ipython
+  302  ls
+  303  cd thehackerwithin-PyTrieste-4f54727/
+  304  ls
+  305  gedit
+  306  gedit a3.sh
+  307  gedit a3.sh &
+  308  ./a3.sh
+  309  chmod a+x a3.sh 
+  310  ./a3.sh
+  311  ls
+  312  cd cleandata/
+  313  ls
+  314  cd..
+  315  cd shellExample/
+  316  ls
+  317  cd data/
+  318  ls
+  319  cd Frank_Richard/'
+  320  ls
+  321  cd ..
+  322  ls
+  323  ls
+  324  cd Bert/
+  325  ls
+  326  cd..
+  327  ls
+  328  cd ..
+  329  ls
+  330  cd..
+  331  ls
+  332  cp a3.sh ./shellExample/data/Bert/
+  333  cd shellExample/data/Bert/
+  334  ls
+  335  ./a3.sh
+  336  ls
+  337  cd cleandata/
+  338  ls
+  339  cat audioresult-00
+  340  cat audioresult-00.txt
+  341  cat audioresult-00215.txt
+  342   git config --global user.name "Your Name"
+  343    git config --global user.email fadi.famous@gmail.com
+  344  git config --global user.name "Fadi"
+  345  git config --global user.email fadi.famous@gmail.com
+  346  mkdir ExcerciseSession
+  347  cd ExcerciseSession
+  348  git init
+  349  touch README
+  350   git add README
+  351   git commit -m " this is my first comment fadi :) " 
+  352  git remote add origin git@github.com:fadifamous/ExcerciseSession.git
+  353  git push -u origin master
+  354   git commit -m " this is my first commit fadi :) " 
+  355  git push -u origin master
+  356  gedit exersice.py
+  357  gedit exersice.py &
+  358  ls
+  359  python exersice.py 
+  360  help (glob)
+  361  python exersice.py 
+  362        import os
+  363     
+  364        import glob
+  365  python exersice.py /afs/ictp.it/home/f/fbataha/ShellExample/thehackerwithin-PyTrieste-4f54727/shellExample/data/Bert/cleandata
+  366  git push -u origin master
+  367  git push -u origin master
+  368   git commit -m " this is my 2nd commit fadi :) " 
+  369  git add exersice.py 
+  370   git commit -m " this is my 2nd commit fadi :) " 
+  371  git push -u origin master
+  372  python exersice.py /afs/ictp.it/home/f/fbataha/ShellExample/thehackerwithin-PyTrieste-4f54727/shellExample/data/Bert/cleandata
+  373  python exersice.py /afs/ictp.it/home/f/fbataha/ShellExample/thehackerwithin-PyTrieste-4f54727/shellExample/data/Bert/cleandata/
+  374  ipython
+  375  %paste
+  376  ipython
+  377  git remote add origin git@github.com:fadifamous/new.git
+  378  git init
+  379  cd
+  380  ls
+  381  cd ShellExample/
+  382  ks
+  383  ls
+  384  cd thehackerwithin-PyTrieste-4f54727/
+  385  cd shellExample/
+  386  cd data/
+  387  ls
+  388  cd Bert/
+  389  ls
+  390  ./a3.sh
+  391  ls
+  392  cd cleandata/
+  393  ls
+  394  touch readme
+  395  git add readme
+  396  git add -m "a commit"
+  397  git commit -m "a commit"
+  398  git remote add origin git@github.com:username/Hello-World.git
+  399  git push origin master
+  400  ipython
+  401  mkdir newtest
+  402  ls
+  403  cd newtest/
+  404  gedit newtest.py
+  405  nosetests
+  406  ls
+  407  cat newtest.py 
+  408  nosetests
+  409  ls
+  410  cd ..
+  411  ls
+  412  nosetests 
+  413  gedit newtest/
+  414  gedit newtest/newtest.py 
+  415  cd..
+  416  cd ..
+  417  cd
+  418  ls
+  419  mkdir ex2
+  420  ls
+  421  cd ex2/
+  422  gedit ex.py &
+  423  ls
+  424  git ex.py
+  425  git add ex.py
+  426* 
+  427  Set up git
+  428  set up git
+  429  git config --global user.name "fadifamous"
+  430  git config --global user.email fadi.famous@gmail.com
+  431  cd ex2
+  432  ls
+  433  mkdir ex2
+  434  cd ex2
+  435  git init
+  436  touch readme2
+  437  git add readme
+  438  git commit -m 'first commit'
+  439  git remote add origin git@github.comgit remote add origin git@github.com
+  440  git push -u origin master
+  441  cd existing_git_repo
+  442  ls
+  443  git status
+  444  git push -u origin master
+  445  ls
+  446  gedit inputdata.py &
+  447  gedit ex2.py &
+  448  python ex2.py 
+  449  python ex2.py ipython
+  450  ipython
+  451  ls
+  452  ln
+  453* 
+  454  ex2
+  455  ex2.py
+  456  ls
+  457  python ex2.py
+  458  git clone git@github.com:username/PyTrieste.git
+  459  git clone git@github.com:fadi.famous/ex2.git
+  460  git add ex2.py
+  461  git remote add origin git@github.com:fadifamous/ex2.git
+  462  git push -u origin master
+  463  git remote add origin git@github.com:fadifamous/ex2.git
+  464   git remote add origin git@github.com:fadifamous/ex2.git
+  465  ls
+  466  ls -A
+  467  git log
+  468  rm -rf .git
+  469  ls
+  470  ls -A
+  471  ls
+  472  git init
+  473  ls
+  474  cat ~/.gitconfig
+  475  git add ex2.py
+  476  git add inputdata.py
+  477  git commmit -am "i hope it works"
+  478  git commit -am "i hope it works"
+  479  git remote add origin git@github.com:fadifamous/ex2.git
+  480  git push -u origin master
+  481  cd ~
+  482  ls -A
+  483  cd .ssh/
+  484  ls
+  485  cd key_backup/
+  486  ls
+  487  cd .. 
+  488  ls
+  489  cd ..
+  490  ssh-keygen -t rsa -C "fadi.famous@gmail.com"
+  491  cat ~/.ssh/id_rsa.pub
+  492  git push -u origin master
+  493  ls
+  494  rm  -rf .git
+  495  ls
+  496  cd ex2/
+  497  ls
+  498  ls -A
+  499  cd ex2/
+  500  ls
+  501  git push -u origin master
+  502  cd ..
+  503  ls
+  504  cd ..
+  505  ls
+  506  cd ex2/
+  507  ls -A
+  508  cd ex2/
+  509  ls
+  510  cd ..
+  511  ls
+  512  cd ex2/
+  513  ls
+  514  cd ..
+  515  rm -rf ex2/
+  516  git clone git@github.com:fadifamous/ex2.git
+  517  cd ex2/
+  518  ls
+  519  git remote -v
+  520  git status
+  521  gnuplot
+  522  top
+  523  ls
+  524  cd ..
+  525  ls
+  526  cd 
+  527  ls
+  528  !
+  529  cd ~
+  530  ls
+  531  cd de
+  532  cd D
+  533  cd Desktop/
+  534  ls
+  535  cd .. 
+  536  ls 
+  537  c:
+  538  cd ~
+  539  cd ks
+  540  ls
+  541  cd
+  542  le
+  543  cd ~
+  544  cd ex2
+  545  ls
+  546  ls -A
+  547  cat history
+  548  history hist.txt
+  549  history> hist.txt
